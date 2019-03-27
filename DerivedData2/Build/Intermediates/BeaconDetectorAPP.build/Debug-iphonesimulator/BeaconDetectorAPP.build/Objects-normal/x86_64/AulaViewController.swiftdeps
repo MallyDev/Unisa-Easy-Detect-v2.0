@@ -1,0 +1,2529 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AulaViewController"
+provides-nominal:
+- "17BeaconDetectorAPP18AulaViewControllerC"
+provides-member:
+- ["17BeaconDetectorAPP18AulaViewControllerC", ""]
+provides-dynamic-lookup:
+- "CDLLabel"
+- "aulaCorrente"
+- "capienzaLabel"
+- "capienzaTitleView"
+- "centerMapOnLocation"
+- "descrizioneLabel"
+- "descrizioneTitleView"
+- "dettagliLabel"
+- "didReceiveMemoryWarning"
+- "getMapAnnotation"
+- "locationLabel"
+- "locationManager"
+- "locationTitleView"
+- "mapView"
+- "mostraOrari"
+- "prepare"
+- "progressBar"
+- "regionRadius"
+- "startNavigatore"
+- "urlOrario"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "=="
+- !private ">"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AulaMapAnnotation"
+- "AulaViewController"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "CLLocation"
+- !private "CLLocationCoordinate2D"
+- !private "CLLocationCoordinate2DMake"
+- !private "CLLocationDegrees"
+- "CLLocationDistance"
+- "CLLocationManager"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "Float"
+- !private "Int"
+- !private "MKCoordinateRegion"
+- !private "MKCoordinateRegionMakeWithDistance"
+- !private "MKCoordinateSpan"
+- !private "MKLaunchOptionsMapCenterKey"
+- !private "MKLaunchOptionsMapSpanKey"
+- !private "MKMapItem"
+- "MKMapView"
+- !private "MKPlacemark"
+- !private "NSFontAttributeName"
+- !private "NSMutableAttributedString"
+- !private "NSValue"
+- !private "OperationQueue"
+- !private "OrarioAulaViewController"
+- "PAula"
+- !private "PersistenceManager"
+- "String"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UIButton"
+- !private "UIFont"
+- !private "UIImage"
+- "UILabel"
+- "UIProgressView"
+- "UIStoryboardSegue"
+- "UIViewController"
+- !private "URL"
+- !private "URLSession"
+- "UnicodeScalarType"
+- !private "Utility"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["17BeaconDetectorAPP17AulaMapAnnotationC", "deinit"]
+- !private ["17BeaconDetectorAPP17AulaMapAnnotationC", "init"]
+- !private ["17BeaconDetectorAPP17AulaMapAnnotationC", "title"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "AnyObject"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "Array"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "AulaMapAnnotation"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "Bool"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "CDLLabel"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "CGRect"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocation"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocationCoordinate2D"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocationCoordinate2DMake"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocationDegrees"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocationDistance"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "CLLocationManager"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "Float"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "Int"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKCoordinateRegion"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKCoordinateRegionMakeWithDistance"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKCoordinateSpan"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKLaunchOptionsMapCenterKey"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKLaunchOptionsMapSpanKey"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKMapItem"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "MKMapView"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "MKPlacemark"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "NSFontAttributeName"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "NSMutableAttributedString"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "NSValue"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "OperationQueue"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "OrarioAulaViewController"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "PAula"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "PersistenceManager"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "String"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "UIBarButtonItem"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "UIButton"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "UIFont"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "UIImage"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "UILabel"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "UIProgressView"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "UIStoryboardSegue"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "URL"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "URLSession"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "Utility"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "aulaCorrente"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "capienzaLabel"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "capienzaTitleView"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "centerMapOnLocation"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "deinit"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "descrizioneLabel"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "descrizioneTitleView"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "dettagliLabel"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "didReceiveMemoryWarning"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "getMapAnnotation"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "init"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "locationLabel"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "locationManager"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "locationTitleView"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "mapView"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "mostraOrari"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "navigationItem"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "performSegue"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "prepare"]
+- !private ["17BeaconDetectorAPP18AulaViewControllerC", "print"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "progressBar"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "regionRadius"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "startNavigatore"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "urlOrario"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "viewDidLoad"]
+- ["17BeaconDetectorAPP18AulaViewControllerC", "viewWillAppear"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So15CALayerDelegateP", "addAnnotations"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "attributedText"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- !private ["So15CALayerDelegateP", "setProgress"]
+- !private ["So15CALayerDelegateP", "setRegion"]
+- !private ["So15CALayerDelegateP", "showsUserLocation"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["SC6CGRectV", "init"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So10CLLocationC", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["So11CLPlacemarkC", "init"]
+- !private ["s7CVarArgP", "AulaMapAnnotation"]
+- !private ["s7CVarArgP", "CDLLabel"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2DMake"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "MKCoordinateRegion"]
+- !private ["s7CVarArgP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["s7CVarArgP", "MKCoordinateSpan"]
+- !private ["s7CVarArgP", "MKLaunchOptionsMapCenterKey"]
+- !private ["s7CVarArgP", "MKLaunchOptionsMapSpanKey"]
+- !private ["s7CVarArgP", "MKMapItem"]
+- !private ["s7CVarArgP", "MKPlacemark"]
+- !private ["s7CVarArgP", "NSFontAttributeName"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "NSValue"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "PersistenceManager"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "Utility"]
+- !private ["s7CVarArgP", "addAnnotations"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "attributedText"]
+- !private ["s7CVarArgP", "aulaCorrente"]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- !private ["s7CVarArgP", "capienza"]
+- !private ["s7CVarArgP", "capienzaLabel"]
+- !private ["s7CVarArgP", "capienzaTitleView"]
+- !private ["s7CVarArgP", "cdl"]
+- !private ["s7CVarArgP", "centerMapOnLocation"]
+- !private ["s7CVarArgP", "codice"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "descrizione"]
+- !private ["s7CVarArgP", "descrizioneLabel"]
+- !private ["s7CVarArgP", "descrizioneTitleView"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "dettagliLabel"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "edificio"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "getMapAnnotation"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "lat"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "locationLabel"]
+- !private ["s7CVarArgP", "locationTitleView"]
+- !private ["s7CVarArgP", "long"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "matr"]
+- !private ["s7CVarArgP", "mostraOrari"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "nome"]
+- !private ["s7CVarArgP", "openInMaps"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "piano"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "progressBar"]
+- !private ["s7CVarArgP", "regionRadius"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "setProgress"]
+- !private ["s7CVarArgP", "setRegion"]
+- !private ["s7CVarArgP", "setRightBarButtonItems"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "showsUserLocation"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "prefix"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "AulaMapAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "CDLLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2DMake"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateSpan"]
+- !private ["s28CustomDebugStringConvertibleP", "MKLaunchOptionsMapCenterKey"]
+- !private ["s28CustomDebugStringConvertibleP", "MKLaunchOptionsMapSpanKey"]
+- !private ["s28CustomDebugStringConvertibleP", "MKMapItem"]
+- !private ["s28CustomDebugStringConvertibleP", "MKPlacemark"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFontAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSValue"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "PersistenceManager"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "Utility"]
+- !private ["s28CustomDebugStringConvertibleP", "addAnnotations"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedText"]
+- !private ["s28CustomDebugStringConvertibleP", "aulaCorrente"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "capienza"]
+- !private ["s28CustomDebugStringConvertibleP", "capienzaLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "capienzaTitleView"]
+- !private ["s28CustomDebugStringConvertibleP", "cdl"]
+- !private ["s28CustomDebugStringConvertibleP", "centerMapOnLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "codice"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "descrizione"]
+- !private ["s28CustomDebugStringConvertibleP", "descrizioneLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "descrizioneTitleView"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "dettagliLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "edificio"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "getMapAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "lat"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "locationLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "locationTitleView"]
+- !private ["s28CustomDebugStringConvertibleP", "long"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "matr"]
+- !private ["s28CustomDebugStringConvertibleP", "mostraOrari"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "nome"]
+- !private ["s28CustomDebugStringConvertibleP", "openInMaps"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "piano"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "progressBar"]
+- !private ["s28CustomDebugStringConvertibleP", "regionRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "setRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "setRightBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "showsUserLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AulaMapAnnotation"]
+- !private ["s23CustomStringConvertibleP", "CDLLabel"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2DMake"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateRegion"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateSpan"]
+- !private ["s23CustomStringConvertibleP", "MKLaunchOptionsMapCenterKey"]
+- !private ["s23CustomStringConvertibleP", "MKLaunchOptionsMapSpanKey"]
+- !private ["s23CustomStringConvertibleP", "MKMapItem"]
+- !private ["s23CustomStringConvertibleP", "MKPlacemark"]
+- !private ["s23CustomStringConvertibleP", "NSFontAttributeName"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSValue"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "PersistenceManager"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "Utility"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAnnotations"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "attributedText"]
+- !private ["s23CustomStringConvertibleP", "aulaCorrente"]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- !private ["s23CustomStringConvertibleP", "capienza"]
+- !private ["s23CustomStringConvertibleP", "capienzaLabel"]
+- !private ["s23CustomStringConvertibleP", "capienzaTitleView"]
+- !private ["s23CustomStringConvertibleP", "cdl"]
+- !private ["s23CustomStringConvertibleP", "centerMapOnLocation"]
+- !private ["s23CustomStringConvertibleP", "codice"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "descrizione"]
+- !private ["s23CustomStringConvertibleP", "descrizioneLabel"]
+- !private ["s23CustomStringConvertibleP", "descrizioneTitleView"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "dettagliLabel"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "edificio"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "getMapAnnotation"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lat"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "locationLabel"]
+- !private ["s23CustomStringConvertibleP", "locationTitleView"]
+- !private ["s23CustomStringConvertibleP", "long"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "matr"]
+- !private ["s23CustomStringConvertibleP", "mostraOrari"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "nome"]
+- !private ["s23CustomStringConvertibleP", "openInMaps"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "piano"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "progressBar"]
+- !private ["s23CustomStringConvertibleP", "regionRadius"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "setProgress"]
+- !private ["s23CustomStringConvertibleP", "setRegion"]
+- !private ["s23CustomStringConvertibleP", "setRightBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "showsUserLocation"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "prefix"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "prefix"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s9EquatableP", "AulaMapAnnotation"]
+- !private ["s9EquatableP", "CDLLabel"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "CLLocationCoordinate2DMake"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "MKCoordinateRegion"]
+- !private ["s9EquatableP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["s9EquatableP", "MKCoordinateSpan"]
+- !private ["s9EquatableP", "MKLaunchOptionsMapCenterKey"]
+- !private ["s9EquatableP", "MKLaunchOptionsMapSpanKey"]
+- !private ["s9EquatableP", "MKMapItem"]
+- !private ["s9EquatableP", "MKPlacemark"]
+- !private ["s9EquatableP", "NSFontAttributeName"]
+- !private ["s9EquatableP", "NSMutableAttributedString"]
+- !private ["s9EquatableP", "NSValue"]
+- !private ["s9EquatableP", "OperationQueue"]
+- !private ["s9EquatableP", "PersistenceManager"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIBarButtonItem"]
+- !private ["s9EquatableP", "UIButton"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URLSession"]
+- !private ["s9EquatableP", "Utility"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAnnotations"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "attributedText"]
+- !private ["s9EquatableP", "aulaCorrente"]
+- !private ["s9EquatableP", "boldSystemFont"]
+- !private ["s9EquatableP", "capienza"]
+- !private ["s9EquatableP", "capienzaLabel"]
+- !private ["s9EquatableP", "capienzaTitleView"]
+- !private ["s9EquatableP", "cdl"]
+- !private ["s9EquatableP", "centerMapOnLocation"]
+- !private ["s9EquatableP", "codice"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "custom"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "descrizione"]
+- !private ["s9EquatableP", "descrizioneLabel"]
+- !private ["s9EquatableP", "descrizioneTitleView"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "dettagliLabel"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "edificio"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "getMapAnnotation"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "lat"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "locationLabel"]
+- !private ["s9EquatableP", "locationTitleView"]
+- !private ["s9EquatableP", "long"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "mapView"]
+- !private ["s9EquatableP", "masksToBounds"]
+- !private ["s9EquatableP", "matr"]
+- !private ["s9EquatableP", "mostraOrari"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "nome"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "openInMaps"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "piano"]
+- !private ["s9EquatableP", "prefix"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "progressBar"]
+- !private ["s9EquatableP", "regionRadius"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "setImage"]
+- !private ["s9EquatableP", "setProgress"]
+- !private ["s9EquatableP", "setRegion"]
+- !private ["s9EquatableP", "setRightBarButtonItems"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "showsUserLocation"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "touchUpInside"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "AulaMapAnnotation"]
+- !private ["s8HashableP", "CDLLabel"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "CLLocation"]
+- !private ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "CLLocationCoordinate2DMake"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "MKCoordinateRegion"]
+- !private ["s8HashableP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["s8HashableP", "MKCoordinateSpan"]
+- !private ["s8HashableP", "MKLaunchOptionsMapCenterKey"]
+- !private ["s8HashableP", "MKLaunchOptionsMapSpanKey"]
+- !private ["s8HashableP", "MKMapItem"]
+- !private ["s8HashableP", "MKPlacemark"]
+- !private ["s8HashableP", "NSFontAttributeName"]
+- !private ["s8HashableP", "NSMutableAttributedString"]
+- !private ["s8HashableP", "NSValue"]
+- !private ["s8HashableP", "OperationQueue"]
+- !private ["s8HashableP", "PersistenceManager"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIBarButtonItem"]
+- !private ["s8HashableP", "UIButton"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URLSession"]
+- !private ["s8HashableP", "Utility"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAnnotations"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "append"]
+- !private ["s8HashableP", "attributedText"]
+- !private ["s8HashableP", "aulaCorrente"]
+- !private ["s8HashableP", "boldSystemFont"]
+- !private ["s8HashableP", "capienza"]
+- !private ["s8HashableP", "capienzaLabel"]
+- !private ["s8HashableP", "capienzaTitleView"]
+- !private ["s8HashableP", "cdl"]
+- !private ["s8HashableP", "centerMapOnLocation"]
+- !private ["s8HashableP", "codice"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "custom"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "descrizione"]
+- !private ["s8HashableP", "descrizioneLabel"]
+- !private ["s8HashableP", "descrizioneTitleView"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "dettagliLabel"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "edificio"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "getMapAnnotation"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "lat"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "locationLabel"]
+- !private ["s8HashableP", "locationTitleView"]
+- !private ["s8HashableP", "long"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "mapView"]
+- !private ["s8HashableP", "masksToBounds"]
+- !private ["s8HashableP", "matr"]
+- !private ["s8HashableP", "mostraOrari"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "nome"]
+- !private ["s8HashableP", "openInMaps"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "piano"]
+- !private ["s8HashableP", "prefix"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "progressBar"]
+- !private ["s8HashableP", "regionRadius"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "setImage"]
+- !private ["s8HashableP", "setProgress"]
+- !private ["s8HashableP", "setRegion"]
+- !private ["s8HashableP", "setRightBarButtonItems"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "showsUserLocation"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "utf8"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "title"]
+- !private ["SC18MKCoordinateRegionV", "center"]
+- !private ["SC18MKCoordinateRegionV", "init"]
+- !private ["SC18MKCoordinateRegionV", "span"]
+- !private ["SC16MKCoordinateSpanV", "init"]
+- !private ["So9MKMapItemC", "init"]
+- !private ["So9MKMapItemC", "name"]
+- !private ["So9MKMapItemC", "openInMaps"]
+- !private ["So9MKMapViewC", "addAnnotations"]
+- !private ["So9MKMapViewC", "setRegion"]
+- !private ["So9MKMapViewC", "showsUserLocation"]
+- !private ["So11MKPlacemarkC", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So18NSAttributedStringC", "append"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "AulaMapAnnotation"]
+- !private ["So8NSCodingP", "CDLLabel"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CLLocation"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2DMake"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "MKCoordinateRegion"]
+- !private ["So8NSCodingP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So8NSCodingP", "MKCoordinateSpan"]
+- !private ["So8NSCodingP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So8NSCodingP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So8NSCodingP", "MKMapItem"]
+- !private ["So8NSCodingP", "MKPlacemark"]
+- !private ["So8NSCodingP", "NSFontAttributeName"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "NSValue"]
+- !private ["So8NSCodingP", "OperationQueue"]
+- !private ["So8NSCodingP", "PersistenceManager"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLSession"]
+- !private ["So8NSCodingP", "Utility"]
+- !private ["So8NSCodingP", "addAnnotations"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "attributedText"]
+- !private ["So8NSCodingP", "aulaCorrente"]
+- !private ["So8NSCodingP", "capienzaLabel"]
+- !private ["So8NSCodingP", "capienzaTitleView"]
+- !private ["So8NSCodingP", "centerMapOnLocation"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "descrizioneLabel"]
+- !private ["So8NSCodingP", "descrizioneTitleView"]
+- !private ["So8NSCodingP", "dettagliLabel"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "getMapAnnotation"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "locationLabel"]
+- !private ["So8NSCodingP", "locationTitleView"]
+- !private ["So8NSCodingP", "mapView"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "mostraOrari"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "openInMaps"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "prefix"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "progressBar"]
+- !private ["So8NSCodingP", "regionRadius"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "setProgress"]
+- !private ["So8NSCodingP", "setRegion"]
+- !private ["So8NSCodingP", "setRightBarButtonItems"]
+- !private ["So8NSCodingP", "showsUserLocation"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "url"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "prefix"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So26NSExtensionRequestHandlingP", "AulaMapAnnotation"]
+- !private ["So26NSExtensionRequestHandlingP", "CDLLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2D"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2DMake"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateRegion"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateSpan"]
+- !private ["So26NSExtensionRequestHandlingP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So26NSExtensionRequestHandlingP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So26NSExtensionRequestHandlingP", "MKMapItem"]
+- !private ["So26NSExtensionRequestHandlingP", "MKPlacemark"]
+- !private ["So26NSExtensionRequestHandlingP", "NSFontAttributeName"]
+- !private ["So26NSExtensionRequestHandlingP", "NSMutableAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "NSValue"]
+- !private ["So26NSExtensionRequestHandlingP", "OperationQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "PersistenceManager"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLSession"]
+- !private ["So26NSExtensionRequestHandlingP", "Utility"]
+- !private ["So26NSExtensionRequestHandlingP", "aulaCorrente"]
+- !private ["So26NSExtensionRequestHandlingP", "capienzaLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "capienzaTitleView"]
+- !private ["So26NSExtensionRequestHandlingP", "centerMapOnLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "descrizioneLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "descrizioneTitleView"]
+- !private ["So26NSExtensionRequestHandlingP", "dettagliLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "getMapAnnotation"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "locationLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "locationTitleView"]
+- !private ["So26NSExtensionRequestHandlingP", "mapView"]
+- !private ["So26NSExtensionRequestHandlingP", "mostraOrari"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "progressBar"]
+- !private ["So26NSExtensionRequestHandlingP", "regionRadius"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "url"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So20NSFetchRequestResultP", "capienza"]
+- !private ["So20NSFetchRequestResultP", "cdl"]
+- !private ["So20NSFetchRequestResultP", "codice"]
+- !private ["So20NSFetchRequestResultP", "descrizione"]
+- !private ["So20NSFetchRequestResultP", "edificio"]
+- !private ["So20NSFetchRequestResultP", "lat"]
+- !private ["So20NSFetchRequestResultP", "long"]
+- !private ["So20NSFetchRequestResultP", "matr"]
+- !private ["So20NSFetchRequestResultP", "nome"]
+- !private ["So20NSFetchRequestResultP", "piano"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "name"]
+- !private ["So21NSItemProviderReadingP", "openInMaps"]
+- !private ["So21NSItemProviderReadingP", "prefix"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "name"]
+- !private ["So21NSItemProviderWritingP", "openInMaps"]
+- !private ["So21NSItemProviderWritingP", "prefix"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So15NSManagedObjectC", "capienza"]
+- !private ["So15NSManagedObjectC", "cdl"]
+- !private ["So15NSManagedObjectC", "codice"]
+- !private ["So15NSManagedObjectC", "descrizione"]
+- !private ["So15NSManagedObjectC", "edificio"]
+- !private ["So15NSManagedObjectC", "lat"]
+- !private ["So15NSManagedObjectC", "long"]
+- !private ["So15NSManagedObjectC", "matr"]
+- !private ["So15NSManagedObjectC", "nome"]
+- !private ["So15NSManagedObjectC", "piano"]
+- !private ["So25NSMutableAttributedStringC", "append"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "prefix"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "AulaMapAnnotation"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CDLLabel"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CLLocation"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2DMake"]
+- !private ["So8NSObjectC", "CLLocationDegrees"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- ["So8NSObjectC", "CLLocationManager"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "MKCoordinateRegion"]
+- !private ["So8NSObjectC", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So8NSObjectC", "MKCoordinateSpan"]
+- !private ["So8NSObjectC", "MKLaunchOptionsMapCenterKey"]
+- !private ["So8NSObjectC", "MKLaunchOptionsMapSpanKey"]
+- !private ["So8NSObjectC", "MKMapItem"]
+- ["So8NSObjectC", "MKMapView"]
+- !private ["So8NSObjectC", "MKPlacemark"]
+- !private ["So8NSObjectC", "NSFontAttributeName"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSValue"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- !private ["So8NSObjectC", "OrarioAulaViewController"]
+- ["So8NSObjectC", "PAula"]
+- !private ["So8NSObjectC", "PersistenceManager"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIProgressView"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "Utility"]
+- !private ["So8NSObjectC", "addAnnotations"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "attributedText"]
+- ["So8NSObjectC", "aulaCorrente"]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- !private ["So8NSObjectC", "capienza"]
+- ["So8NSObjectC", "capienzaLabel"]
+- ["So8NSObjectC", "capienzaTitleView"]
+- !private ["So8NSObjectC", "cdl"]
+- ["So8NSObjectC", "centerMapOnLocation"]
+- !private ["So8NSObjectC", "codice"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "descrizione"]
+- ["So8NSObjectC", "descrizioneLabel"]
+- ["So8NSObjectC", "descrizioneTitleView"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "dettagliLabel"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "edificio"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "getMapAnnotation"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "lat"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "locationLabel"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationTitleView"]
+- !private ["So8NSObjectC", "long"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "mapView"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- !private ["So8NSObjectC", "matr"]
+- ["So8NSObjectC", "mostraOrari"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "nome"]
+- !private ["So8NSObjectC", "openInMaps"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "piano"]
+- !private ["So8NSObjectC", "prefix"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "progressBar"]
+- ["So8NSObjectC", "regionRadius"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "setProgress"]
+- !private ["So8NSObjectC", "setRegion"]
+- !private ["So8NSObjectC", "setRightBarButtonItems"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "showsUserLocation"]
+- ["So8NSObjectC", "startNavigatore"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "urlOrario"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "AulaMapAnnotation"]
+- !private ["So16NSObjectProtocolP", "CDLLabel"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "CLLocation"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2DMake"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateRegion"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateSpan"]
+- !private ["So16NSObjectProtocolP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So16NSObjectProtocolP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So16NSObjectProtocolP", "MKMapItem"]
+- !private ["So16NSObjectProtocolP", "MKPlacemark"]
+- !private ["So16NSObjectProtocolP", "NSFontAttributeName"]
+- !private ["So16NSObjectProtocolP", "NSMutableAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSValue"]
+- !private ["So16NSObjectProtocolP", "OperationQueue"]
+- !private ["So16NSObjectProtocolP", "PersistenceManager"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "UIButton"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URLSession"]
+- !private ["So16NSObjectProtocolP", "Utility"]
+- !private ["So16NSObjectProtocolP", "addAnnotations"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "append"]
+- !private ["So16NSObjectProtocolP", "attributedText"]
+- !private ["So16NSObjectProtocolP", "aulaCorrente"]
+- !private ["So16NSObjectProtocolP", "boldSystemFont"]
+- !private ["So16NSObjectProtocolP", "capienza"]
+- !private ["So16NSObjectProtocolP", "capienzaLabel"]
+- !private ["So16NSObjectProtocolP", "capienzaTitleView"]
+- !private ["So16NSObjectProtocolP", "cdl"]
+- !private ["So16NSObjectProtocolP", "centerMapOnLocation"]
+- !private ["So16NSObjectProtocolP", "codice"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "descrizione"]
+- !private ["So16NSObjectProtocolP", "descrizioneLabel"]
+- !private ["So16NSObjectProtocolP", "descrizioneTitleView"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "dettagliLabel"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "edificio"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "getMapAnnotation"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "lat"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "locationLabel"]
+- !private ["So16NSObjectProtocolP", "locationTitleView"]
+- !private ["So16NSObjectProtocolP", "long"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "mapView"]
+- !private ["So16NSObjectProtocolP", "masksToBounds"]
+- !private ["So16NSObjectProtocolP", "matr"]
+- !private ["So16NSObjectProtocolP", "mostraOrari"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "nome"]
+- !private ["So16NSObjectProtocolP", "openInMaps"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "piano"]
+- !private ["So16NSObjectProtocolP", "prefix"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "progressBar"]
+- !private ["So16NSObjectProtocolP", "regionRadius"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "setImage"]
+- !private ["So16NSObjectProtocolP", "setProgress"]
+- !private ["So16NSObjectProtocolP", "setRegion"]
+- !private ["So16NSObjectProtocolP", "setRightBarButtonItems"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "showsUserLocation"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "name"]
+- !private ["So14NSSecureCodingP", "openInMaps"]
+- !private ["So14NSSecureCodingP", "prefix"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "prefix"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So7NSValueC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["So14OperationQueueC", "addOperation"]
+- !private ["So14OperationQueueC", "main"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["17BeaconDetectorAPP24OrarioAulaViewControllerC", "title"]
+- !private ["17BeaconDetectorAPP24OrarioAulaViewControllerC", "url"]
+- !private ["17BeaconDetectorAPP5PAulaC", "capienza"]
+- !private ["17BeaconDetectorAPP5PAulaC", "codice"]
+- !private ["17BeaconDetectorAPP5PAulaC", "descrizione"]
+- !private ["17BeaconDetectorAPP5PAulaC", "edificio"]
+- !private ["17BeaconDetectorAPP5PAulaC", "lat"]
+- !private ["17BeaconDetectorAPP5PAulaC", "long"]
+- !private ["17BeaconDetectorAPP5PAulaC", "nome"]
+- !private ["17BeaconDetectorAPP5PAulaC", "piano"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "cdl"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "deinit"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "matr"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "fetchUtente"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "prefix"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "custom"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s16RawRepresentableP", "touchUpInside"]
+- !private ["s16RawRepresentableP", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "prefix"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "prefix"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "addAnnotations"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedText"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setProgress"]
+- !private ["So29UIAccessibilityIdentificationP", "setRegion"]
+- !private ["So29UIAccessibilityIdentificationP", "showsUserLocation"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addAnnotations"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "attributedText"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "setImage"]
+- !private ["So12UIAppearanceP", "setProgress"]
+- !private ["So12UIAppearanceP", "setRegion"]
+- !private ["So12UIAppearanceP", "showsUserLocation"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AulaMapAnnotation"]
+- !private ["So21UIAppearanceContainerP", "CDLLabel"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "CLLocation"]
+- !private ["So21UIAppearanceContainerP", "CLLocationCoordinate2D"]
+- !private ["So21UIAppearanceContainerP", "CLLocationCoordinate2DMake"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateRegion"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateSpan"]
+- !private ["So21UIAppearanceContainerP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So21UIAppearanceContainerP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So21UIAppearanceContainerP", "MKMapItem"]
+- !private ["So21UIAppearanceContainerP", "MKPlacemark"]
+- !private ["So21UIAppearanceContainerP", "NSFontAttributeName"]
+- !private ["So21UIAppearanceContainerP", "NSMutableAttributedString"]
+- !private ["So21UIAppearanceContainerP", "NSValue"]
+- !private ["So21UIAppearanceContainerP", "OperationQueue"]
+- !private ["So21UIAppearanceContainerP", "PersistenceManager"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLSession"]
+- !private ["So21UIAppearanceContainerP", "Utility"]
+- !private ["So21UIAppearanceContainerP", "addAnnotations"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "attributedText"]
+- !private ["So21UIAppearanceContainerP", "aulaCorrente"]
+- !private ["So21UIAppearanceContainerP", "capienzaLabel"]
+- !private ["So21UIAppearanceContainerP", "capienzaTitleView"]
+- !private ["So21UIAppearanceContainerP", "centerMapOnLocation"]
+- !private ["So21UIAppearanceContainerP", "descrizioneLabel"]
+- !private ["So21UIAppearanceContainerP", "descrizioneTitleView"]
+- !private ["So21UIAppearanceContainerP", "dettagliLabel"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "getMapAnnotation"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "locationLabel"]
+- !private ["So21UIAppearanceContainerP", "locationTitleView"]
+- !private ["So21UIAppearanceContainerP", "mapView"]
+- !private ["So21UIAppearanceContainerP", "mostraOrari"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "progressBar"]
+- !private ["So21UIAppearanceContainerP", "regionRadius"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "setProgress"]
+- !private ["So21UIAppearanceContainerP", "setRegion"]
+- !private ["So21UIAppearanceContainerP", "showsUserLocation"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "url"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "frame"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "setImage"]
+- !private ["SC12UIButtonTypeO", "custom"]
+- !private ["So18UIContentContainerP", "AulaMapAnnotation"]
+- !private ["So18UIContentContainerP", "CDLLabel"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "CLLocation"]
+- !private ["So18UIContentContainerP", "CLLocationCoordinate2D"]
+- !private ["So18UIContentContainerP", "CLLocationCoordinate2DMake"]
+- !private ["So18UIContentContainerP", "Float"]
+- !private ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "MKCoordinateRegion"]
+- !private ["So18UIContentContainerP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So18UIContentContainerP", "MKCoordinateSpan"]
+- !private ["So18UIContentContainerP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So18UIContentContainerP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So18UIContentContainerP", "MKMapItem"]
+- !private ["So18UIContentContainerP", "MKPlacemark"]
+- !private ["So18UIContentContainerP", "NSFontAttributeName"]
+- !private ["So18UIContentContainerP", "NSMutableAttributedString"]
+- !private ["So18UIContentContainerP", "NSValue"]
+- !private ["So18UIContentContainerP", "OperationQueue"]
+- !private ["So18UIContentContainerP", "PersistenceManager"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UIButton"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLSession"]
+- !private ["So18UIContentContainerP", "Utility"]
+- !private ["So18UIContentContainerP", "aulaCorrente"]
+- !private ["So18UIContentContainerP", "capienzaLabel"]
+- !private ["So18UIContentContainerP", "capienzaTitleView"]
+- !private ["So18UIContentContainerP", "centerMapOnLocation"]
+- !private ["So18UIContentContainerP", "descrizioneLabel"]
+- !private ["So18UIContentContainerP", "descrizioneTitleView"]
+- !private ["So18UIContentContainerP", "dettagliLabel"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "getMapAnnotation"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "locationLabel"]
+- !private ["So18UIContentContainerP", "locationTitleView"]
+- !private ["So18UIContentContainerP", "mapView"]
+- !private ["So18UIContentContainerP", "mostraOrari"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "progressBar"]
+- !private ["So18UIContentContainerP", "regionRadius"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "url"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedText"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isHidden"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "layer"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "setImage"]
+- !private ["SC15UIControlEventsV", "touchUpInside"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "addAnnotations"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- !private ["So17UICoordinateSpaceP", "setProgress"]
+- !private ["So17UICoordinateSpaceP", "setRegion"]
+- !private ["So17UICoordinateSpaceP", "showsUserLocation"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addAnnotations"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "attributedText"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- !private ["So13UIDynamicItemP", "setProgress"]
+- !private ["So13UIDynamicItemP", "setRegion"]
+- !private ["So13UIDynamicItemP", "showsUserLocation"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AulaMapAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "CDLLabel"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "CLLocation"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationCoordinate2DMake"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateRegion"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateSpan"]
+- !private ["So18UIFocusEnvironmentP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So18UIFocusEnvironmentP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So18UIFocusEnvironmentP", "MKMapItem"]
+- !private ["So18UIFocusEnvironmentP", "MKPlacemark"]
+- !private ["So18UIFocusEnvironmentP", "NSFontAttributeName"]
+- !private ["So18UIFocusEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "NSValue"]
+- !private ["So18UIFocusEnvironmentP", "OperationQueue"]
+- !private ["So18UIFocusEnvironmentP", "PersistenceManager"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLSession"]
+- !private ["So18UIFocusEnvironmentP", "Utility"]
+- !private ["So18UIFocusEnvironmentP", "addAnnotations"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "attributedText"]
+- !private ["So18UIFocusEnvironmentP", "aulaCorrente"]
+- !private ["So18UIFocusEnvironmentP", "capienzaLabel"]
+- !private ["So18UIFocusEnvironmentP", "capienzaTitleView"]
+- !private ["So18UIFocusEnvironmentP", "centerMapOnLocation"]
+- !private ["So18UIFocusEnvironmentP", "descrizioneLabel"]
+- !private ["So18UIFocusEnvironmentP", "descrizioneTitleView"]
+- !private ["So18UIFocusEnvironmentP", "dettagliLabel"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "getMapAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "locationLabel"]
+- !private ["So18UIFocusEnvironmentP", "locationTitleView"]
+- !private ["So18UIFocusEnvironmentP", "mapView"]
+- !private ["So18UIFocusEnvironmentP", "mostraOrari"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "progressBar"]
+- !private ["So18UIFocusEnvironmentP", "regionRadius"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "setProgress"]
+- !private ["So18UIFocusEnvironmentP", "setRegion"]
+- !private ["So18UIFocusEnvironmentP", "showsUserLocation"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "url"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addAnnotations"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "attributedText"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "setImage"]
+- !private ["So11UIFocusItemP", "setProgress"]
+- !private ["So11UIFocusItemP", "setRegion"]
+- !private ["So11UIFocusItemP", "showsUserLocation"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "attributedText"]
+- !private ["So7UILabelC", "isHidden"]
+- !private ["So7UILabelC", "layer"]
+- !private ["So7UILabelC", "text"]
+- !private ["So16UINavigationItemC", "setRightBarButtonItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "AulaMapAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "CDLLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2D"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2DMake"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateRegion"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateSpan"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKMapItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKPlacemark"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSFontAttributeName"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSMutableAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSValue"]
+- !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "PersistenceManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "Utility"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAnnotations"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "aulaCorrente"]
+- !private ["So30UIPasteConfigurationSupportingP", "capienzaLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "capienzaTitleView"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerMapOnLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "descrizioneLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "descrizioneTitleView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dettagliLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "getMapAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationTitleView"]
+- !private ["So30UIPasteConfigurationSupportingP", "mapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "mostraOrari"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "progressBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "regionRadius"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "setProgress"]
+- !private ["So30UIPasteConfigurationSupportingP", "setRegion"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsUserLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "url"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So14UIProgressViewC", "isHidden"]
+- !private ["So14UIProgressViewC", "setProgress"]
+- ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Array"]
+- ["So11UIResponderC", "AulaMapAnnotation"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CDLLabel"]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CLLocation"]
+- !private ["So11UIResponderC", "CLLocationCoordinate2D"]
+- !private ["So11UIResponderC", "CLLocationCoordinate2DMake"]
+- !private ["So11UIResponderC", "CLLocationDegrees"]
+- ["So11UIResponderC", "CLLocationDistance"]
+- ["So11UIResponderC", "CLLocationManager"]
+- !private ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "MKCoordinateRegion"]
+- !private ["So11UIResponderC", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So11UIResponderC", "MKCoordinateSpan"]
+- !private ["So11UIResponderC", "MKLaunchOptionsMapCenterKey"]
+- !private ["So11UIResponderC", "MKLaunchOptionsMapSpanKey"]
+- !private ["So11UIResponderC", "MKMapItem"]
+- ["So11UIResponderC", "MKMapView"]
+- !private ["So11UIResponderC", "MKPlacemark"]
+- !private ["So11UIResponderC", "NSFontAttributeName"]
+- !private ["So11UIResponderC", "NSMutableAttributedString"]
+- !private ["So11UIResponderC", "NSValue"]
+- !private ["So11UIResponderC", "OperationQueue"]
+- !private ["So11UIResponderC", "OrarioAulaViewController"]
+- ["So11UIResponderC", "PAula"]
+- !private ["So11UIResponderC", "PersistenceManager"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIProgressView"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLSession"]
+- !private ["So11UIResponderC", "Utility"]
+- !private ["So11UIResponderC", "addAnnotations"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "attributedText"]
+- ["So11UIResponderC", "aulaCorrente"]
+- ["So11UIResponderC", "capienzaLabel"]
+- ["So11UIResponderC", "capienzaTitleView"]
+- ["So11UIResponderC", "centerMapOnLocation"]
+- ["So11UIResponderC", "descrizioneLabel"]
+- ["So11UIResponderC", "descrizioneTitleView"]
+- ["So11UIResponderC", "dettagliLabel"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "getMapAnnotation"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "locationLabel"]
+- ["So11UIResponderC", "locationManager"]
+- ["So11UIResponderC", "locationTitleView"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "mostraOrari"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "progressBar"]
+- ["So11UIResponderC", "regionRadius"]
+- !private ["So11UIResponderC", "setImage"]
+- !private ["So11UIResponderC", "setProgress"]
+- !private ["So11UIResponderC", "setRegion"]
+- !private ["So11UIResponderC", "showsUserLocation"]
+- ["So11UIResponderC", "startNavigatore"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "url"]
+- ["So11UIResponderC", "urlOrario"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "AulaMapAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "CDLLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2D"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2DMake"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateRegion"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateSpan"]
+- !private ["So30UIResponderStandardEditActionsP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So30UIResponderStandardEditActionsP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So30UIResponderStandardEditActionsP", "MKMapItem"]
+- !private ["So30UIResponderStandardEditActionsP", "MKPlacemark"]
+- !private ["So30UIResponderStandardEditActionsP", "NSFontAttributeName"]
+- !private ["So30UIResponderStandardEditActionsP", "NSMutableAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "NSValue"]
+- !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "PersistenceManager"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLSession"]
+- !private ["So30UIResponderStandardEditActionsP", "Utility"]
+- !private ["So30UIResponderStandardEditActionsP", "addAnnotations"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedText"]
+- !private ["So30UIResponderStandardEditActionsP", "aulaCorrente"]
+- !private ["So30UIResponderStandardEditActionsP", "capienzaLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "capienzaTitleView"]
+- !private ["So30UIResponderStandardEditActionsP", "centerMapOnLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "descrizioneLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "descrizioneTitleView"]
+- !private ["So30UIResponderStandardEditActionsP", "dettagliLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "getMapAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "locationLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "locationTitleView"]
+- !private ["So30UIResponderStandardEditActionsP", "mapView"]
+- !private ["So30UIResponderStandardEditActionsP", "mostraOrari"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "progressBar"]
+- !private ["So30UIResponderStandardEditActionsP", "regionRadius"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "setProgress"]
+- !private ["So30UIResponderStandardEditActionsP", "setRegion"]
+- !private ["So30UIResponderStandardEditActionsP", "showsUserLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "url"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So16UIStateRestoringP", "AulaMapAnnotation"]
+- !private ["So16UIStateRestoringP", "CDLLabel"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "CLLocation"]
+- !private ["So16UIStateRestoringP", "CLLocationCoordinate2D"]
+- !private ["So16UIStateRestoringP", "CLLocationCoordinate2DMake"]
+- !private ["So16UIStateRestoringP", "Float"]
+- !private ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "MKCoordinateRegion"]
+- !private ["So16UIStateRestoringP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So16UIStateRestoringP", "MKCoordinateSpan"]
+- !private ["So16UIStateRestoringP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So16UIStateRestoringP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So16UIStateRestoringP", "MKMapItem"]
+- !private ["So16UIStateRestoringP", "MKPlacemark"]
+- !private ["So16UIStateRestoringP", "NSFontAttributeName"]
+- !private ["So16UIStateRestoringP", "NSMutableAttributedString"]
+- !private ["So16UIStateRestoringP", "NSValue"]
+- !private ["So16UIStateRestoringP", "OperationQueue"]
+- !private ["So16UIStateRestoringP", "PersistenceManager"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UIButton"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLSession"]
+- !private ["So16UIStateRestoringP", "Utility"]
+- !private ["So16UIStateRestoringP", "aulaCorrente"]
+- !private ["So16UIStateRestoringP", "capienzaLabel"]
+- !private ["So16UIStateRestoringP", "capienzaTitleView"]
+- !private ["So16UIStateRestoringP", "centerMapOnLocation"]
+- !private ["So16UIStateRestoringP", "descrizioneLabel"]
+- !private ["So16UIStateRestoringP", "descrizioneTitleView"]
+- !private ["So16UIStateRestoringP", "dettagliLabel"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "getMapAnnotation"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "locationLabel"]
+- !private ["So16UIStateRestoringP", "locationTitleView"]
+- !private ["So16UIStateRestoringP", "mapView"]
+- !private ["So16UIStateRestoringP", "mostraOrari"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "progressBar"]
+- !private ["So16UIStateRestoringP", "regionRadius"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "url"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So18UITraitEnvironmentP", "AulaMapAnnotation"]
+- !private ["So18UITraitEnvironmentP", "CDLLabel"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "CLLocation"]
+- !private ["So18UITraitEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UITraitEnvironmentP", "CLLocationCoordinate2DMake"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateRegion"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateSpan"]
+- !private ["So18UITraitEnvironmentP", "MKLaunchOptionsMapCenterKey"]
+- !private ["So18UITraitEnvironmentP", "MKLaunchOptionsMapSpanKey"]
+- !private ["So18UITraitEnvironmentP", "MKMapItem"]
+- !private ["So18UITraitEnvironmentP", "MKPlacemark"]
+- !private ["So18UITraitEnvironmentP", "NSFontAttributeName"]
+- !private ["So18UITraitEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UITraitEnvironmentP", "NSValue"]
+- !private ["So18UITraitEnvironmentP", "OperationQueue"]
+- !private ["So18UITraitEnvironmentP", "PersistenceManager"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLSession"]
+- !private ["So18UITraitEnvironmentP", "Utility"]
+- !private ["So18UITraitEnvironmentP", "addAnnotations"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "attributedText"]
+- !private ["So18UITraitEnvironmentP", "aulaCorrente"]
+- !private ["So18UITraitEnvironmentP", "capienzaLabel"]
+- !private ["So18UITraitEnvironmentP", "capienzaTitleView"]
+- !private ["So18UITraitEnvironmentP", "centerMapOnLocation"]
+- !private ["So18UITraitEnvironmentP", "descrizioneLabel"]
+- !private ["So18UITraitEnvironmentP", "descrizioneTitleView"]
+- !private ["So18UITraitEnvironmentP", "dettagliLabel"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "getMapAnnotation"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "locationLabel"]
+- !private ["So18UITraitEnvironmentP", "locationTitleView"]
+- !private ["So18UITraitEnvironmentP", "mapView"]
+- !private ["So18UITraitEnvironmentP", "mostraOrari"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "progressBar"]
+- !private ["So18UITraitEnvironmentP", "regionRadius"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "setProgress"]
+- !private ["So18UITraitEnvironmentP", "setRegion"]
+- !private ["So18UITraitEnvironmentP", "showsUserLocation"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "url"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addAnnotations"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "attributedText"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "setImage"]
+- !private ["So6UIViewC", "setProgress"]
+- !private ["So6UIViewC", "setRegion"]
+- !private ["So6UIViewC", "showsUserLocation"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Array"]
+- ["So16UIViewControllerC", "AulaMapAnnotation"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CDLLabel"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "CLLocation"]
+- !private ["So16UIViewControllerC", "CLLocationCoordinate2D"]
+- !private ["So16UIViewControllerC", "CLLocationCoordinate2DMake"]
+- !private ["So16UIViewControllerC", "CLLocationDegrees"]
+- ["So16UIViewControllerC", "CLLocationDistance"]
+- ["So16UIViewControllerC", "CLLocationManager"]
+- !private ["So16UIViewControllerC", "Float"]
+- !private ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "MKCoordinateRegion"]
+- !private ["So16UIViewControllerC", "MKCoordinateRegionMakeWithDistance"]
+- !private ["So16UIViewControllerC", "MKCoordinateSpan"]
+- !private ["So16UIViewControllerC", "MKLaunchOptionsMapCenterKey"]
+- !private ["So16UIViewControllerC", "MKLaunchOptionsMapSpanKey"]
+- !private ["So16UIViewControllerC", "MKMapItem"]
+- ["So16UIViewControllerC", "MKMapView"]
+- !private ["So16UIViewControllerC", "MKPlacemark"]
+- !private ["So16UIViewControllerC", "NSFontAttributeName"]
+- !private ["So16UIViewControllerC", "NSMutableAttributedString"]
+- !private ["So16UIViewControllerC", "NSValue"]
+- !private ["So16UIViewControllerC", "OperationQueue"]
+- !private ["So16UIViewControllerC", "OrarioAulaViewController"]
+- ["So16UIViewControllerC", "PAula"]
+- !private ["So16UIViewControllerC", "PersistenceManager"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIFont"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIProgressView"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLSession"]
+- !private ["So16UIViewControllerC", "Utility"]
+- ["So16UIViewControllerC", "aulaCorrente"]
+- ["So16UIViewControllerC", "capienzaLabel"]
+- ["So16UIViewControllerC", "capienzaTitleView"]
+- ["So16UIViewControllerC", "centerMapOnLocation"]
+- ["So16UIViewControllerC", "descrizioneLabel"]
+- ["So16UIViewControllerC", "descrizioneTitleView"]
+- ["So16UIViewControllerC", "dettagliLabel"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "getMapAnnotation"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "locationLabel"]
+- ["So16UIViewControllerC", "locationManager"]
+- ["So16UIViewControllerC", "locationTitleView"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "mostraOrari"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "progressBar"]
+- ["So16UIViewControllerC", "regionRadius"]
+- ["So16UIViewControllerC", "startNavigatore"]
+- !private ["So16UIViewControllerC", "title"]
+- !private ["So16UIViewControllerC", "url"]
+- ["So16UIViewControllerC", "urlOrario"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- !private ["So17UIWebViewDelegateP", "title"]
+- !private ["So17UIWebViewDelegateP", "url"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "shared"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["17BeaconDetectorAPP7UtilityC", "creazioneOrario"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "last"]
+- !private ["s23_BidirectionalIndexableP", "prefix"]
+- !private ["s23_BidirectionalIndexableP", "replacingOccurrences"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addAnnotations"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "attributedText"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setProgress"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setRegion"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsUserLocation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "prefix"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "last"]
+- !private ["s10_IndexableP", "prefix"]
+- !private ["s10_IndexableP", "replacingOccurrences"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "last"]
+- !private ["s14_IndexableBaseP", "prefix"]
+- !private ["s14_IndexableBaseP", "replacingOccurrences"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AulaMapAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CDLLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2DMake"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateRegion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateRegionMakeWithDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateSpan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKLaunchOptionsMapCenterKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKLaunchOptionsMapSpanKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKMapItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKPlacemark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFontAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PersistenceManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Utility"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnnotations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "aulaCorrente"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capienza"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capienzaLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capienzaTitleView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cdl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerMapOnLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "codice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descrizione"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descrizioneLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descrizioneTitleView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dettagliLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "edificio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getMapAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationTitleView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "long"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mostraOrari"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nome"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openInMaps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "piano"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progressBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "regionRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setRegion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setRightBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsUserLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "last"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "last"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "last"]
+- !private ["s26_RangeReplaceableIndexableP", "prefix"]
+- !private ["s26_RangeReplaceableIndexableP", "replacingOccurrences"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "prefix"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+depends-nominal:
+- !private "Sa"
+- !private "17BeaconDetectorAPP17AulaMapAnnotationC"
+- "17BeaconDetectorAPP18AulaViewControllerC"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC6CGRectV"
+- !private "So10CLLocationC"
+- !private "SC22CLLocationCoordinate2DV"
+- !private "So11CLPlacemarkC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "So12MKAnnotationP"
+- !private "SC18MKCoordinateRegionV"
+- !private "SC16MKCoordinateSpanV"
+- !private "So9MKMapItemC"
+- !private "So9MKMapViewC"
+- !private "So11MKPlacemarkC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So15NSManagedObjectC"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "s7NumericP"
+- !private "So14OperationQueueC"
+- !private "s9OptionSetP"
+- !private "17BeaconDetectorAPP24OrarioAulaViewControllerC"
+- !private "17BeaconDetectorAPP5PAulaC"
+- !private "17BeaconDetectorAPP7PUtenteC"
+- !private "17BeaconDetectorAPP18PersistenceManagerC"
+- !private "So17ProgressReportingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- !private "So8UIButtonC"
+- !private "SC12UIButtonTypeO"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So14UIProgressViewC"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So17UIWebViewDelegateP"
+- !private "10Foundation3URLV"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "17BeaconDetectorAPP7UtilityC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort0.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort0.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterBeaconV1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGenericAdvertiserID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/EstimoteSDK.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPostJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPutJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoV4VO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBaseVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareUpdateVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsEventVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationGPIOData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconMac.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserGeneric.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTimePeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDNamespace.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDNamespace.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDevice.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestRegisterDevice.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneConfigurationService.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInstance.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInstance.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetBackgroundMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconNonStrictMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationIBeaconNonStrictMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryVoltage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryVoltage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryPercentage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryPercentage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/BeaconDetectorAPP/ObjCBridge.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneConfigurationServiceEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIONotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIONotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerDarkToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerDarkToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerFlipToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerFlipToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingShakeToConnectEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationShakeToConnectEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceConnectable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTemperatureRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDateRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTOrientationRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMotionRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTProximityRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSchedule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableBroadcastingScheme.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationBroadcastingScheme.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUTCTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUTCTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryLifetime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationPowerBatteryLifetime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUptime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUptime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringZone.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystone.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationHardware.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingBase.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBase.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2DevicesUpdate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManagerDelegate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManagerDelegate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestDelete.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadWrite.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetEstimoteMonitoring.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMesh.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAnalyticsTrack.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheral.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsGeneral.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearableInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNotificationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURLDomain.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserIBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsIBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBluetoothBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceLocationBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterLocationBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAssignGPSLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceIndoorLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingOperation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdateConfiguration.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsCollection.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconConnection.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsDeviceInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceUpdateInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTStorageManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSimulatedNearableManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMeshManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTriggerManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableSettingsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconSettingsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTUtilityManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTrigger.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLogger.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetDeviceOwner.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiser.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBulkUpdater.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdater.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMagnetometer.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMagnetometer.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationTransporter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearablePower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearablePower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDevices.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetNearables.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetFirmwares.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoTags.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoTags.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestCancelPendingSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetPendingSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsPublicDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeacons.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsSensors.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationSystemStatus.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoSystemStatus.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneAttachment.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPort.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceStatusReport.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceShadow.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadOnly.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationMotionOnly.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetSettingsHistory.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralTypeUtility.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserConnectivity.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+interface-hash: "92d06155e2b3f53adabcd45722f88a73"

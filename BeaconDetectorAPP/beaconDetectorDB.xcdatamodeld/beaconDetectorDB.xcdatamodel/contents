@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PAula" representedClassName="PAula" syncable="YES">
+        <attribute name="capienza" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="codice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edificio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="piano" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="PAula"/>
+        </fetchedProperty>
+        <fetchedProperty name="fetchedProperty1" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="PAula"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="PBeacon" representedClassName="PBeacon" syncable="YES">
+        <attribute name="aula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PEdificio" representedClassName="PEdificio" syncable="YES">
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PPiano" representedClassName="PPiano" syncable="YES">
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edificio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numero" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PUtente" representedClassName="PUtente" syncable="YES">
+        <attribute name="anno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cdl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PAula" positionX="-63" positionY="-18" width="128" height="209"/>
+        <element name="PBeacon" positionX="-18" positionY="27" width="128" height="105"/>
+        <element name="PEdificio" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="PPiano" positionX="-36" positionY="9" width="128" height="90"/>
+        <element name="PUtente" positionX="-36" positionY="63" width="128" height="105"/>
+    </elements>
+</model>

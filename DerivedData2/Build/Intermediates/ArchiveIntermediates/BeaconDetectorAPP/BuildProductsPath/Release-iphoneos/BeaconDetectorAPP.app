@@ -1,0 +1,1 @@
+/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/DerivedData2/Build/Intermediates/ArchiveIntermediates/BeaconDetectorAPP/InstallationBuildProductsLocation/Applications/BeaconDetectorAPP.app

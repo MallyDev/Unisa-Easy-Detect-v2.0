@@ -1,0 +1,1341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirstViewController"
+provides-nominal:
+- "17BeaconDetectorAPP19FirstViewControllerC"
+provides-member:
+- ["17BeaconDetectorAPP19FirstViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "downloadDatabaseView"
+- "indicator"
+- "semaforo"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "DataBaseManager"
+- !private "Dictionary"
+- !private "DispatchQueue"
+- !private "DispatchTime"
+- "FirstViewController"
+- !private "HTTPURLResponse"
+- !private "JSONSerialization"
+- !private "NSMutableURLRequest"
+- !private "NSURL"
+- !private "PersistenceManager"
+- !private "String"
+- !private "StringLiteralType"
+- "UIActivityIndicatorView"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- !private "UIAlertControllerStyle"
+- !private "UIDevice"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UserDefaults"
+- !private "Utility"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["s7CVarArgP", "DataBaseManager"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSMutableURLRequest"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "PersistenceManager"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIAlertControllerStyle"]
+- !private ["s7CVarArgP", "UIDevice"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "Utility"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "addValue"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "bool"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "double"]
+- !private ["s7CVarArgP", "httpBody"]
+- !private ["s7CVarArgP", "httpMethod"]
+- !private ["s7CVarArgP", "identifierForVendor"]
+- !private ["s7CVarArgP", "indicator"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "registerUser"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "DataBaseManager"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "PersistenceManager"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertControllerStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "Utility"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "addValue"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "double"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "identifierForVendor"]
+- !private ["s28CustomDebugStringConvertibleP", "indicator"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "registerUser"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "DataBaseManager"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "PersistenceManager"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIAlertControllerStyle"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "Utility"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "addValue"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "double"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "identifierForVendor"]
+- !private ["s23CustomStringConvertibleP", "indicator"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "registerUser"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["17BeaconDetectorAPP15DataBaseManagerC", "databaseDownload"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "uuidString"]
+- !private ["So14DispatchObjectC", "asyncAfter"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "asyncAfter"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "uuidString"]
+- !private ["s9EquatableP", "DataBaseManager"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "DispatchTime"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "NSMutableURLRequest"]
+- !private ["s9EquatableP", "NSURL"]
+- !private ["s9EquatableP", "PersistenceManager"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertController"]
+- !private ["s9EquatableP", "UIAlertControllerStyle"]
+- !private ["s9EquatableP", "UIDevice"]
+- !private ["s9EquatableP", "URLSession"]
+- !private ["s9EquatableP", "UserDefaults"]
+- !private ["s9EquatableP", "Utility"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "addValue"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "asyncAfter"]
+- !private ["s9EquatableP", "bool"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "destructive"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "double"]
+- !private ["s9EquatableP", "httpBody"]
+- !private ["s9EquatableP", "httpMethod"]
+- !private ["s9EquatableP", "identifierForVendor"]
+- !private ["s9EquatableP", "indicator"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "now"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "prettyPrinted"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "registerUser"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "set"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "standard"]
+- !private ["s9EquatableP", "startAnimating"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s9EquatableP", "stopAnimating"]
+- !private ["s9EquatableP", "uuidString"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "Bool"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "DataBaseManager"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "DispatchQueue"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "DispatchTime"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "HTTPURLResponse"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "JSONSerialization"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "NSMutableURLRequest"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "NSURL"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "PersistenceManager"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "String"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "UIActivityIndicatorView"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "UIAlertAction"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "UIAlertController"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "UIAlertControllerStyle"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "UIDevice"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "URL"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "URLRequest"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "URLSession"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "UserDefaults"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "Utility"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "deinit"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "didReceiveMemoryWarning"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "downloadDatabaseView"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "indicator"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "init"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "performSegue"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "present"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "print"]
+- !private ["17BeaconDetectorAPP19FirstViewControllerC", "registerUser"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "semaforo"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "viewDidLoad"]
+- ["17BeaconDetectorAPP19FirstViewControllerC", "viewWillAppear"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "DataBaseManager"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "DispatchTime"]
+- !private ["s8HashableP", "JSONSerialization"]
+- !private ["s8HashableP", "NSMutableURLRequest"]
+- !private ["s8HashableP", "NSURL"]
+- !private ["s8HashableP", "PersistenceManager"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertController"]
+- !private ["s8HashableP", "UIAlertControllerStyle"]
+- !private ["s8HashableP", "UIDevice"]
+- !private ["s8HashableP", "URLSession"]
+- !private ["s8HashableP", "UserDefaults"]
+- !private ["s8HashableP", "Utility"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "addValue"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "asyncAfter"]
+- !private ["s8HashableP", "bool"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "destructive"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "double"]
+- !private ["s8HashableP", "httpBody"]
+- !private ["s8HashableP", "httpMethod"]
+- !private ["s8HashableP", "identifierForVendor"]
+- !private ["s8HashableP", "indicator"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "registerUser"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "set"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "standard"]
+- !private ["s8HashableP", "startAnimating"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s8HashableP", "stopAnimating"]
+- !private ["s8HashableP", "uuidString"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["So17JSONSerializationC", "data"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DataBaseManager"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "DispatchTime"]
+- !private ["So8NSCodingP", "JSONSerialization"]
+- !private ["So8NSCodingP", "NSMutableURLRequest"]
+- !private ["So8NSCodingP", "NSURL"]
+- !private ["So8NSCodingP", "PersistenceManager"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UIAlertControllerStyle"]
+- !private ["So8NSCodingP", "UIDevice"]
+- !private ["So8NSCodingP", "URLSession"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- !private ["So8NSCodingP", "Utility"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "addValue"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "httpBody"]
+- !private ["So8NSCodingP", "httpMethod"]
+- !private ["So8NSCodingP", "indicator"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "registerUser"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "addValue"]
+- !private ["So9NSCopyingP", "httpBody"]
+- !private ["So9NSCopyingP", "httpMethod"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So26NSExtensionRequestHandlingP", "DataBaseManager"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchTime"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONSerialization"]
+- !private ["So26NSExtensionRequestHandlingP", "NSMutableURLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "NSURL"]
+- !private ["So26NSExtensionRequestHandlingP", "PersistenceManager"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertControllerStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "URLSession"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- !private ["So26NSExtensionRequestHandlingP", "Utility"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "indicator"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "registerUser"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "addValue"]
+- !private ["So16NSMutableCopyingP", "httpBody"]
+- !private ["So16NSMutableCopyingP", "httpMethod"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So19NSMutableURLRequestC", "addValue"]
+- !private ["So19NSMutableURLRequestC", "httpBody"]
+- !private ["So19NSMutableURLRequestC", "httpMethod"]
+- !private ["So19NSMutableURLRequestC", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DataBaseManager"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchTime"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "NSMutableURLRequest"]
+- !private ["So8NSObjectC", "NSURL"]
+- !private ["So8NSObjectC", "PersistenceManager"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "UIAlertControllerStyle"]
+- !private ["So8NSObjectC", "UIDevice"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "Utility"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "addValue"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "bool"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "double"]
+- ["So8NSObjectC", "downloadDatabaseView"]
+- !private ["So8NSObjectC", "httpBody"]
+- !private ["So8NSObjectC", "httpMethod"]
+- !private ["So8NSObjectC", "identifierForVendor"]
+- ["So8NSObjectC", "indicator"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "registerUser"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "semaforo"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "DataBaseManager"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "DispatchTime"]
+- !private ["So16NSObjectProtocolP", "JSONSerialization"]
+- !private ["So16NSObjectProtocolP", "NSMutableURLRequest"]
+- !private ["So16NSObjectProtocolP", "NSURL"]
+- !private ["So16NSObjectProtocolP", "PersistenceManager"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "UIAlertControllerStyle"]
+- !private ["So16NSObjectProtocolP", "UIDevice"]
+- !private ["So16NSObjectProtocolP", "URLSession"]
+- !private ["So16NSObjectProtocolP", "UserDefaults"]
+- !private ["So16NSObjectProtocolP", "Utility"]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "addValue"]
+- !private ["So16NSObjectProtocolP", "asyncAfter"]
+- !private ["So16NSObjectProtocolP", "bool"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "double"]
+- !private ["So16NSObjectProtocolP", "httpBody"]
+- !private ["So16NSObjectProtocolP", "httpMethod"]
+- !private ["So16NSObjectProtocolP", "identifierForVendor"]
+- !private ["So16NSObjectProtocolP", "indicator"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "registerUser"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "set"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "standard"]
+- !private ["So16NSObjectProtocolP", "startAnimating"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So16NSObjectProtocolP", "stopAnimating"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addValue"]
+- !private ["So14NSSecureCodingP", "httpBody"]
+- !private ["So14NSSecureCodingP", "httpMethod"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "init"]
+- !private ["So5NSURLC", "init"]
+- !private ["So12NSURLRequestC", "addValue"]
+- !private ["So12NSURLRequestC", "httpBody"]
+- !private ["So12NSURLRequestC", "httpMethod"]
+- !private ["So12NSURLRequestC", "init"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "deleteAll"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "destructive"]
+- !private ["s16RawRepresentableP", "prettyPrinted"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "destructive"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "DataBaseManager"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "DispatchTime"]
+- !private ["So21UIAppearanceContainerP", "JSONSerialization"]
+- !private ["So21UIAppearanceContainerP", "NSMutableURLRequest"]
+- !private ["So21UIAppearanceContainerP", "NSURL"]
+- !private ["So21UIAppearanceContainerP", "PersistenceManager"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UIAlertControllerStyle"]
+- !private ["So21UIAppearanceContainerP", "UIDevice"]
+- !private ["So21UIAppearanceContainerP", "URLSession"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- !private ["So21UIAppearanceContainerP", "Utility"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "indicator"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "registerUser"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "DataBaseManager"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "DispatchTime"]
+- !private ["So18UIContentContainerP", "JSONSerialization"]
+- !private ["So18UIContentContainerP", "NSMutableURLRequest"]
+- !private ["So18UIContentContainerP", "NSURL"]
+- !private ["So18UIContentContainerP", "PersistenceManager"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UIAlertControllerStyle"]
+- !private ["So18UIContentContainerP", "UIDevice"]
+- !private ["So18UIContentContainerP", "URLSession"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- !private ["So18UIContentContainerP", "Utility"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "indicator"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "registerUser"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "identifierForVendor"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "DataBaseManager"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "DispatchTime"]
+- !private ["So18UIFocusEnvironmentP", "JSONSerialization"]
+- !private ["So18UIFocusEnvironmentP", "NSMutableURLRequest"]
+- !private ["So18UIFocusEnvironmentP", "NSURL"]
+- !private ["So18UIFocusEnvironmentP", "PersistenceManager"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertControllerStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIDevice"]
+- !private ["So18UIFocusEnvironmentP", "URLSession"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- !private ["So18UIFocusEnvironmentP", "Utility"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "indicator"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "registerUser"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "DataBaseManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchTime"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONSerialization"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSMutableURLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "PersistenceManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertControllerStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- !private ["So30UIPasteConfigurationSupportingP", "Utility"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "indicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "registerUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DataBaseManager"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "DispatchTime"]
+- !private ["So11UIResponderC", "HTTPURLResponse"]
+- !private ["So11UIResponderC", "JSONSerialization"]
+- !private ["So11UIResponderC", "NSMutableURLRequest"]
+- !private ["So11UIResponderC", "NSURL"]
+- !private ["So11UIResponderC", "PersistenceManager"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- !private ["So11UIResponderC", "UIAlertControllerStyle"]
+- !private ["So11UIResponderC", "UIDevice"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- !private ["So11UIResponderC", "URLSession"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- !private ["So11UIResponderC", "Utility"]
+- !private ["So11UIResponderC", "addAction"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "downloadDatabaseView"]
+- ["So11UIResponderC", "indicator"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "registerUser"]
+- ["So11UIResponderC", "semaforo"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "DataBaseManager"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchTime"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONSerialization"]
+- !private ["So30UIResponderStandardEditActionsP", "NSMutableURLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "NSURL"]
+- !private ["So30UIResponderStandardEditActionsP", "PersistenceManager"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertControllerStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "URLSession"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- !private ["So30UIResponderStandardEditActionsP", "Utility"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "indicator"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "registerUser"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "DataBaseManager"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "DispatchTime"]
+- !private ["So16UIStateRestoringP", "JSONSerialization"]
+- !private ["So16UIStateRestoringP", "NSMutableURLRequest"]
+- !private ["So16UIStateRestoringP", "NSURL"]
+- !private ["So16UIStateRestoringP", "PersistenceManager"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UIAlertControllerStyle"]
+- !private ["So16UIStateRestoringP", "UIDevice"]
+- !private ["So16UIStateRestoringP", "URLSession"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- !private ["So16UIStateRestoringP", "Utility"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "indicator"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "registerUser"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "DataBaseManager"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "DispatchTime"]
+- !private ["So18UITraitEnvironmentP", "JSONSerialization"]
+- !private ["So18UITraitEnvironmentP", "NSMutableURLRequest"]
+- !private ["So18UITraitEnvironmentP", "NSURL"]
+- !private ["So18UITraitEnvironmentP", "PersistenceManager"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UIAlertControllerStyle"]
+- !private ["So18UITraitEnvironmentP", "UIDevice"]
+- !private ["So18UITraitEnvironmentP", "URLSession"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- !private ["So18UITraitEnvironmentP", "Utility"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "indicator"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "registerUser"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DataBaseManager"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "DispatchTime"]
+- !private ["So16UIViewControllerC", "HTTPURLResponse"]
+- !private ["So16UIViewControllerC", "JSONSerialization"]
+- !private ["So16UIViewControllerC", "NSMutableURLRequest"]
+- !private ["So16UIViewControllerC", "NSURL"]
+- !private ["So16UIViewControllerC", "PersistenceManager"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- !private ["So16UIViewControllerC", "UIAlertControllerStyle"]
+- !private ["So16UIViewControllerC", "UIDevice"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- !private ["So16UIViewControllerC", "URLSession"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- !private ["So16UIViewControllerC", "Utility"]
+- !private ["So16UIViewControllerC", "addAction"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "downloadDatabaseView"]
+- ["So16UIViewControllerC", "indicator"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "registerUser"]
+- ["So16UIViewControllerC", "semaforo"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "shared"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["So12UserDefaultsC", "bool"]
+- !private ["So12UserDefaultsC", "double"]
+- !private ["So12UserDefaultsC", "set"]
+- !private ["So12UserDefaultsC", "standard"]
+- !private ["17BeaconDetectorAPP7UtilityC", "connectedToNetwork"]
+- !private ["So17JSONSerializationC14WritingOptionsV", "prettyPrinted"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpBody"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpMethod"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataBaseManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableURLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PersistenceManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertControllerStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Utility"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifierForVendor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "17BeaconDetectorAPP15DataBaseManagerC"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "8Dispatch0A4TimeV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "17BeaconDetectorAPP19FirstViewControllerC"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- !private "So17JSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableURLRequestC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So5NSURLC"
+- !private "So12NSURLRequestC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "17BeaconDetectorAPP18PersistenceManagerC"
+- !private "So17ProgressReportingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So23UIActivityIndicatorViewC"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So11URLResponseC"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "10Foundation4UUIDV"
+- !private "So12UserDefaultsC"
+- !private "17BeaconDetectorAPP7UtilityC"
+- !private "So17JSONSerializationC14WritingOptionsV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort0.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort0.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterBeaconV1.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort1.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort1.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneEID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneEID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneEID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterEID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconProximityUUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterUID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGenericAdvertiserID.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/EstimoteSDK.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableEddystoneURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationEddystoneURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURL.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneTLM.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneTLM.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneTLM.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteTLM.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteTLM.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetJSON.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPostJSON.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPutJSON.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationGPIO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoGPIO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsGPIO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoV4VO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBaseVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareUpdateVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsEventVO.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationGPIOData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPortsData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOPortsData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOPortsData.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconMac.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserGeneric.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTimePeriod.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDNamespace.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDNamespace.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDevice.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestRegisterDevice.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneConfigurationService.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInstance.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInstance.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetBackgroundMode.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconNonStrictMode.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationIBeaconNonStrictMode.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryVoltage.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryVoltage.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryPercentage.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryPercentage.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/BeaconDetectorAPP/ObjCBridge.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneConfigurationServiceEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIONotificationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIONotificationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerDarkToSleepEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerDarkToSleepEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerFlipToSleepEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerFlipToSleepEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingShakeToConnectEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationShakeToConnectEnable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNearable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralNearable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterNearable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceConnectable.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTemperatureRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDateRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTOrientationRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMotionRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTProximityRule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSchedule.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationName.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationName.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoName.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoName.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableBroadcastingScheme.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationBroadcastingScheme.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUTCTime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUTCTime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryLifetime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationPowerBatteryLifetime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUptime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUptime.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringZone.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystone.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationHardware.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationPressure.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoPressure.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsPressure.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsPressure.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationTemperature.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoTemperature.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsTemperature.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsTemperature.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingBase.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBase.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2DevicesUpdate.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManagerDelegate.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManagerDelegate.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestDelete.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadWrite.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOConfig.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTConfig.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateConfig.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetEstimoteMonitoring.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMesh.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAnalyticsTrack.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheral.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsGeneral.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearableInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityInterval.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudSettingProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNotificationProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationProtocol.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURLDomain.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserIBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsIBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBluetoothBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceLocationBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterLocationBeacon.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationApplicationVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAssignGPSLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceGeoLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoGeoLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoGeoLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceIndoorLocation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingOperation.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdateConfiguration.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsCollection.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconConnection.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationMotion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMotion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMotion.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsDeviceInfo.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceUpdateInfo.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateInfo.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfo.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTStorageManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSimulatedNearableManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMeshManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTriggerManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableSettingsManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconSettingsManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTUtilityManager.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTrigger.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLogger.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetDeviceOwner.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiser.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBulkUpdater.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdater.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMagnetometer.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMagnetometer.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilter.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilter.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationTransporter.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearablePower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearablePower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityPower.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMajor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMajor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMajor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconColor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoColor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoColor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMinor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMinor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMinor.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDevices.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetNearables.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetFirmwares.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoTags.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoTags.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettings.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestCancelPendingSettings.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetPendingSettings.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsPublicDetails.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceDetails.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDeviceDetails.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetDeviceDetails.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsDetails.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeacons.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDefinitions.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableDefinitions.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconDefinitions.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsSensors.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationSystemStatus.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoSystemStatus.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationAmbientLight.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoAmbientLight.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsAmbientLight.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsAmbientLight.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneAttachment.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPort.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceStatusReport.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceShadow.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadOnly.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationMotionOnly.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetSettingsHistory.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralTypeUtility.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserConnectivity.h"
+- "/Users/Mally/Desktop/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c70a5f3b75afd98159e09a5fc2e8cfba"

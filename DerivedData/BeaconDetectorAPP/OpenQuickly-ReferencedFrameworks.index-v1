@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>MapKit</string>
+	<string>WebKit</string>
+	<string>CoreBluetooth</string>
+	<string>UserNotifications</string>
+	<string>CoreData</string>
+	<string>XCTest</string>
+	<string>BeaconDetectorAPP</string>
+	<string>UIKit</string>
+	<string>EstimoteSDK</string>
+	<string>Foundation</string>
+</array>
+</plist>

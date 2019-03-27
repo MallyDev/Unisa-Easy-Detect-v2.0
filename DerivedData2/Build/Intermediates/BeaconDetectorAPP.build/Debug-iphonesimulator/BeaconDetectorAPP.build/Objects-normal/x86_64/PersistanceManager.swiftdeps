@@ -1,0 +1,912 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PersistenceManager"
+provides-nominal:
+- "17BeaconDetectorAPP18PersistenceManagerC"
+provides-member:
+- ["17BeaconDetectorAPP18PersistenceManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Int32"
+- !private "NSEntityDescription"
+- !private "NSError"
+- !private "NSFetchRequest"
+- "NSManagedObjectContext"
+- !private "NSNumber"
+- !private "NSPredicate"
+- "PAula"
+- "PBeacon"
+- "PEdificio"
+- "PPiano"
+- "PUtente"
+- "PersistenceManager"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["17BeaconDetectorAPP11AppDelegateC", "persistentContainer"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So25CLLocationManagerDelegateP", "persistentContainer"]
+- !private ["s7CVarArgP", "anno"]
+- !private ["s7CVarArgP", "aula"]
+- !private ["s7CVarArgP", "capienza"]
+- !private ["s7CVarArgP", "cdl"]
+- !private ["s7CVarArgP", "codice"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "descrizione"]
+- !private ["s7CVarArgP", "edificio"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertNewObject"]
+- !private ["s7CVarArgP", "lat"]
+- !private ["s7CVarArgP", "long"]
+- !private ["s7CVarArgP", "major"]
+- !private ["s7CVarArgP", "matr"]
+- !private ["s7CVarArgP", "minor"]
+- !private ["s7CVarArgP", "nome"]
+- !private ["s7CVarArgP", "numero"]
+- !private ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "piano"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uuid"]
+- !private ["s7CVarArgP", "viewContext"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "anno"]
+- !private ["s28CustomDebugStringConvertibleP", "aula"]
+- !private ["s28CustomDebugStringConvertibleP", "capienza"]
+- !private ["s28CustomDebugStringConvertibleP", "cdl"]
+- !private ["s28CustomDebugStringConvertibleP", "codice"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "descrizione"]
+- !private ["s28CustomDebugStringConvertibleP", "edificio"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertNewObject"]
+- !private ["s28CustomDebugStringConvertibleP", "lat"]
+- !private ["s28CustomDebugStringConvertibleP", "long"]
+- !private ["s28CustomDebugStringConvertibleP", "major"]
+- !private ["s28CustomDebugStringConvertibleP", "matr"]
+- !private ["s28CustomDebugStringConvertibleP", "minor"]
+- !private ["s28CustomDebugStringConvertibleP", "nome"]
+- !private ["s28CustomDebugStringConvertibleP", "numero"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "piano"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "anno"]
+- !private ["s23CustomStringConvertibleP", "aula"]
+- !private ["s23CustomStringConvertibleP", "capienza"]
+- !private ["s23CustomStringConvertibleP", "cdl"]
+- !private ["s23CustomStringConvertibleP", "codice"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "descrizione"]
+- !private ["s23CustomStringConvertibleP", "edificio"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertNewObject"]
+- !private ["s23CustomStringConvertibleP", "lat"]
+- !private ["s23CustomStringConvertibleP", "long"]
+- !private ["s23CustomStringConvertibleP", "major"]
+- !private ["s23CustomStringConvertibleP", "matr"]
+- !private ["s23CustomStringConvertibleP", "minor"]
+- !private ["s23CustomStringConvertibleP", "nome"]
+- !private ["s23CustomStringConvertibleP", "numero"]
+- !private ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "piano"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["So24ESTBeaconManagerDelegateP", "persistentContainer"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "anno"]
+- !private ["s9EquatableP", "aula"]
+- !private ["s9EquatableP", "capienza"]
+- !private ["s9EquatableP", "cdl"]
+- !private ["s9EquatableP", "codice"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "descrizione"]
+- !private ["s9EquatableP", "edificio"]
+- !private ["s9EquatableP", "fetch"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "insertNewObject"]
+- !private ["s9EquatableP", "lat"]
+- !private ["s9EquatableP", "long"]
+- !private ["s9EquatableP", "major"]
+- !private ["s9EquatableP", "matr"]
+- !private ["s9EquatableP", "minor"]
+- !private ["s9EquatableP", "nome"]
+- !private ["s9EquatableP", "numero"]
+- !private ["s9EquatableP", "persistentContainer"]
+- !private ["s9EquatableP", "piano"]
+- !private ["s9EquatableP", "predicate"]
+- !private ["s9EquatableP", "save"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "uuid"]
+- !private ["s9EquatableP", "viewContext"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "anno"]
+- !private ["s8HashableP", "aula"]
+- !private ["s8HashableP", "capienza"]
+- !private ["s8HashableP", "cdl"]
+- !private ["s8HashableP", "codice"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "delete"]
+- !private ["s8HashableP", "descrizione"]
+- !private ["s8HashableP", "edificio"]
+- !private ["s8HashableP", "fetch"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "insertNewObject"]
+- !private ["s8HashableP", "lat"]
+- !private ["s8HashableP", "long"]
+- !private ["s8HashableP", "major"]
+- !private ["s8HashableP", "matr"]
+- !private ["s8HashableP", "minor"]
+- !private ["s8HashableP", "nome"]
+- !private ["s8HashableP", "numero"]
+- !private ["s8HashableP", "persistentContainer"]
+- !private ["s8HashableP", "piano"]
+- !private ["s8HashableP", "predicate"]
+- !private ["s8HashableP", "save"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "uuid"]
+- !private ["s8HashableP", "viewContext"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertNewObject"]
+- !private ["So8NSCodingP", "predicate"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "insertNewObject"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So19NSEntityDescriptionC", "insertNewObject"]
+- !private ["So17NSFastEnumerationP", "insertNewObject"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So14NSFetchRequestC", "predicate"]
+- !private ["So20NSFetchRequestResultP", "anno"]
+- !private ["So20NSFetchRequestResultP", "aula"]
+- !private ["So20NSFetchRequestResultP", "capienza"]
+- !private ["So20NSFetchRequestResultP", "cdl"]
+- !private ["So20NSFetchRequestResultP", "codice"]
+- !private ["So20NSFetchRequestResultP", "descrizione"]
+- !private ["So20NSFetchRequestResultP", "edificio"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "lat"]
+- !private ["So20NSFetchRequestResultP", "long"]
+- !private ["So20NSFetchRequestResultP", "major"]
+- !private ["So20NSFetchRequestResultP", "matr"]
+- !private ["So20NSFetchRequestResultP", "minor"]
+- !private ["So20NSFetchRequestResultP", "nome"]
+- !private ["So20NSFetchRequestResultP", "numero"]
+- !private ["So20NSFetchRequestResultP", "piano"]
+- !private ["So20NSFetchRequestResultP", "uuid"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "anno"]
+- !private ["So15NSManagedObjectC", "aula"]
+- !private ["So15NSManagedObjectC", "capienza"]
+- !private ["So15NSManagedObjectC", "cdl"]
+- !private ["So15NSManagedObjectC", "codice"]
+- !private ["So15NSManagedObjectC", "descrizione"]
+- !private ["So15NSManagedObjectC", "edificio"]
+- !private ["So15NSManagedObjectC", "lat"]
+- !private ["So15NSManagedObjectC", "long"]
+- !private ["So15NSManagedObjectC", "major"]
+- !private ["So15NSManagedObjectC", "matr"]
+- !private ["So15NSManagedObjectC", "minor"]
+- !private ["So15NSManagedObjectC", "nome"]
+- !private ["So15NSManagedObjectC", "numero"]
+- !private ["So15NSManagedObjectC", "piano"]
+- !private ["So15NSManagedObjectC", "uuid"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "anno"]
+- !private ["So8NSObjectC", "aula"]
+- !private ["So8NSObjectC", "capienza"]
+- !private ["So8NSObjectC", "cdl"]
+- !private ["So8NSObjectC", "codice"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "descrizione"]
+- !private ["So8NSObjectC", "edificio"]
+- !private ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "insertNewObject"]
+- !private ["So8NSObjectC", "lat"]
+- !private ["So8NSObjectC", "long"]
+- !private ["So8NSObjectC", "major"]
+- !private ["So8NSObjectC", "matr"]
+- !private ["So8NSObjectC", "minor"]
+- !private ["So8NSObjectC", "nome"]
+- !private ["So8NSObjectC", "numero"]
+- !private ["So8NSObjectC", "persistentContainer"]
+- !private ["So8NSObjectC", "piano"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "uuid"]
+- !private ["So8NSObjectC", "viewContext"]
+- !private ["So16NSObjectProtocolP", "anno"]
+- !private ["So16NSObjectProtocolP", "aula"]
+- !private ["So16NSObjectProtocolP", "capienza"]
+- !private ["So16NSObjectProtocolP", "cdl"]
+- !private ["So16NSObjectProtocolP", "codice"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "delete"]
+- !private ["So16NSObjectProtocolP", "descrizione"]
+- !private ["So16NSObjectProtocolP", "edificio"]
+- !private ["So16NSObjectProtocolP", "fetch"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "insertNewObject"]
+- !private ["So16NSObjectProtocolP", "lat"]
+- !private ["So16NSObjectProtocolP", "long"]
+- !private ["So16NSObjectProtocolP", "major"]
+- !private ["So16NSObjectProtocolP", "matr"]
+- !private ["So16NSObjectProtocolP", "minor"]
+- !private ["So16NSObjectProtocolP", "nome"]
+- !private ["So16NSObjectProtocolP", "numero"]
+- !private ["So16NSObjectProtocolP", "persistentContainer"]
+- !private ["So16NSObjectProtocolP", "piano"]
+- !private ["So16NSObjectProtocolP", "predicate"]
+- !private ["So16NSObjectProtocolP", "save"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "uuid"]
+- !private ["So16NSObjectProtocolP", "viewContext"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["17BeaconDetectorAPP5PAulaC", "capienza"]
+- !private ["17BeaconDetectorAPP5PAulaC", "codice"]
+- ["17BeaconDetectorAPP5PAulaC", "deinit"]
+- !private ["17BeaconDetectorAPP5PAulaC", "descrizione"]
+- !private ["17BeaconDetectorAPP5PAulaC", "edificio"]
+- !private ["17BeaconDetectorAPP5PAulaC", "lat"]
+- !private ["17BeaconDetectorAPP5PAulaC", "long"]
+- !private ["17BeaconDetectorAPP5PAulaC", "nome"]
+- !private ["17BeaconDetectorAPP5PAulaC", "piano"]
+- !private ["17BeaconDetectorAPP7PBeaconC", "aula"]
+- ["17BeaconDetectorAPP7PBeaconC", "deinit"]
+- !private ["17BeaconDetectorAPP7PBeaconC", "major"]
+- !private ["17BeaconDetectorAPP7PBeaconC", "minor"]
+- !private ["17BeaconDetectorAPP7PBeaconC", "uuid"]
+- ["17BeaconDetectorAPP9PEdificioC", "deinit"]
+- !private ["17BeaconDetectorAPP9PEdificioC", "descrizione"]
+- !private ["17BeaconDetectorAPP9PEdificioC", "lat"]
+- !private ["17BeaconDetectorAPP9PEdificioC", "long"]
+- !private ["17BeaconDetectorAPP9PEdificioC", "nome"]
+- ["17BeaconDetectorAPP6PPianoC", "deinit"]
+- !private ["17BeaconDetectorAPP6PPianoC", "descrizione"]
+- !private ["17BeaconDetectorAPP6PPianoC", "edificio"]
+- !private ["17BeaconDetectorAPP6PPianoC", "numero"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "anno"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "cdl"]
+- ["17BeaconDetectorAPP7PUtenteC", "deinit"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "matr"]
+- !private ["17BeaconDetectorAPP7PUtenteC", "nome"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "AppDelegate"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "Int32"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "NSEntityDescription"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "NSError"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "NSFetchRequest"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "NSManagedObjectContext"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "NSNumber"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "NSPredicate"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "PAula"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "PBeacon"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "PEdificio"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "PPiano"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "PUtente"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "PersistenceManager"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "String"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "UIApplication"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "deinit"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "deleteAll"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "deleteUtente"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "fatalError"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "fetchAllAule"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "fetchAllBeacon"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "fetchAllEdifici"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "fetchAllPiani"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "fetchUtente"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "getContext"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "init"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "newEmptyAula"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "newEmptyBeacon"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "newEmptyEdificio"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "newEmptyPiano"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "newEmptyUtente"]
+- !private ["17BeaconDetectorAPP18PersistenceManagerC", "print"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "saveContext"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "searchAula"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "searchAulaBeacon"]
+- ["17BeaconDetectorAPP18PersistenceManagerC", "searchEdificio"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "persistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "persistentContainer"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So32UNUserNotificationCenterDelegateP", "persistentContainer"]
+- !private ["So18URLSessionDelegateP", "persistentContainer"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anno"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "aula"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capienza"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cdl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "codice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descrizione"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "edificio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertNewObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "long"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "major"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nome"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numero"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "piano"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "17BeaconDetectorAPP11AppDelegateC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So25CLLocationManagerDelegateP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So24ESTBeaconManagerDelegateP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So21NSPersistentContainerC"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "17BeaconDetectorAPP5PAulaC"
+- "17BeaconDetectorAPP7PBeaconC"
+- "17BeaconDetectorAPP9PEdificioC"
+- "17BeaconDetectorAPP6PPianoC"
+- "17BeaconDetectorAPP7PUtenteC"
+- "17BeaconDetectorAPP18PersistenceManagerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So32UNUserNotificationCenterDelegateP"
+- !private "So18URLSessionDelegateP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort0.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort0.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterBeaconV1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOConfigPort1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOConfigPort1.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterEID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconProximityUUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterUID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGenericAdvertiserID.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/EstimoteSDK.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURL.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteTLM.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPostJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestPutJSON.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsGPIO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoV4VO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBaseVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableFirmwareUpdateVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFirmwareInfoVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsEventVO.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationGPIOData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIOPortsData.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconMac.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserGeneric.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTimePeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingPeriod.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDNamespace.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDNamespace.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDevice.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestRegisterDevice.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEddystoneConfigurationService.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInstance.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInstance.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetBackgroundMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconNonStrictMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationIBeaconNonStrictMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoDevelopmentMode.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryVoltage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryVoltage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryPercentage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerBatteryPercentage.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/BeaconDetectorAPP/ObjCBridge.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMotionUUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneConfigurationServiceEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerSmartPowerModeEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerScheduledAdvertisingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGPIONotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGPIONotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsMotionNotificationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerDarkToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerDarkToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerFlipToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerFlipToSleepEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingShakeToConnectEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationShakeToConnectEnable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterNearable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceConnectable.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTemperatureRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDateRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTOrientationRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMotionRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTProximityRule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSchedule.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoName.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableBroadcastingScheme.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationBroadcastingScheme.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUTCTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUTCTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerBatteryLifetime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationPowerBatteryLifetime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoUptime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoUptime.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringZone.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystone.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationHardware.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsPressure.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsTemperature.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingBase.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBase.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2DevicesUpdate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManagerDelegate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManagerDelegate.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestDelete.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadWrite.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateConfig.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTFeaturesetEstimoteMonitoring.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMesh.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAnalyticsTrack.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheral.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsGeneral.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearableInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearableInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityInterval.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceNotificationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationProtocol.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilterURLDomain.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserIBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsIBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBluetoothBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceLocationBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilterLocationBeacon.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoHardwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoFirmwareVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoApplicationVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationDeviceInfoBootloaderVersion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestAssignGPSLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserEstimoteLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsEstimoteLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoGeoLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceIndoorLocation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingOperation.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdateConfiguration.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsCollection.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconConnection.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMotion.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsDeviceInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceUpdateInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconUpdateInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfo.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTStorageManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSimulatedNearableManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMonitoringManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTMeshManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSecureBeaconManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTriggerManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTAnalyticsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableSettingsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconSettingsManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTUtilityManager.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTrigger.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLogger.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetDeviceOwner.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiser.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBulkUpdater.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTLocationBeaconBulkUpdater.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationMagnetometer.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoMagnetometer.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceFilter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneFilter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNotificationTransporter.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneEIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneEIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneUIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneUIDPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneURLPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneURLPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEddystoneTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEddystoneTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteTLMPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingNearablePower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationNearablePower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingEstimoteLocationPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationEstimoteLocationPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingGenericAdvertiserPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationGenericAdvertiserPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingConnectivityPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationConnectivityPower.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMajor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestBeaconColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoColor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationIBeaconMinor.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDevices.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetNearables.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV3GetFirmwares.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingDeviceInfoTags.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTCloudOperationDeviceInfoTags.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestCancelPendingSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetPendingSettings.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsPublicDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestV2GetDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetDeviceDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeaconsDetails.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetBeacons.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconDefinitions.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsSensors.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationSystemStatus.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoSystemStatus.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryNotificationAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTTelemetryInfoAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingSensorsAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationSensorsAmbientLight.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTEddystoneAttachment.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTGPIOPort.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceStatusReport.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceShadow.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTBeaconOperationPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingReadOnly.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTNearableOperationMotionOnly.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTRequestGetSettingsHistory.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTPeripheralTypeUtility.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTDeviceSettingsAdvertiserConnectivity.h"
+- "/Users/Mally/Documents/Universita\u0300/Triennale/Tesi/Progetto/UNISA_EASY_DETECT_code_file_ipa/UnisaEasyDetect_2Versioni_25-10-2017/UnisaEasyDetect_v2/EstimoteSDK.framework/Headers/ESTSettingsConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+interface-hash: "c642866ec754a0e53b7a3eaaa9346914"
