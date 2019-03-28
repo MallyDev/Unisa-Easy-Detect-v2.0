@@ -1,4 +1,4 @@
-# UNISA EASY DETECT v2.0
+![alt text](https://github.com/MallyDev/Unisa-Easy-Detect-v2.0/blob/master/BeaconDetectorAPP/Assets.xcassets/AppIcon.appiconset/BeaconDetector_logo.001-29%402x.png) # UNISA EASY DETECT v2.0
 
 The idea of Unisa Easy Detect evolved from the necessity to make the attendance recording in University’s classes more efficient in terms of time and reliability.  
 
