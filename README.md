@@ -1,4 +1,3 @@
-![alt text][logo](https://github.com/MallyDev/Unisa-Easy-Detect-v2.0/blob/master/BeaconDetectorAPP/Assets.xcassets/AppIcon.appiconset/BeaconDetector_logo.001-29%402x.png) 
 # UNISA EASY DETECT v2.0
 
 The idea of Unisa Easy Detect evolved from the necessity to make the attendance recording in University’s classes more efficient in terms of time and reliability.  
@@ -8,7 +7,7 @@ Since the attendance is obligatory for many University courses, and a class can 
 
 The starting point was to provide the students with a different technology to record their attendance, and professors decided that beacons would be the solution to our problem. 
 
-
+![alt text](https://github.com/MallyDev/Unisa-Easy-Detect-v2.0/blob/master/BeaconDetectorAPP/Assets.xcassets/AppIcon.appiconset/BeaconDetector_logo.001-29%402x.png) 
 
 With the first version of the system (Mario Cantalupo, Marco Capozzo) the attendance process did not include the authentication of the user, and every record was identified by the Universally unique identifier (UUID) of the installed app on the phone. Thus, was impossible to know who was in the class. 
 
