@@ -9,7 +9,7 @@ The starting point was to provide the students with a different technology to re
 
 ![alt text](https://github.com/MallyDev/Unisa-Easy-Detect-v2.0/blob/master/BeaconDetectorAPP/Assets.xcassets/AppIcon.appiconset/BeaconDetector_logo.001-29%402x.png) 
 
-With the first version of the iOS application the attendance process did not include the authentication of the user, and every record was identified by the Universally unique identifier (UUID) of the installed app on the phone. Thus, was impossible to know who was in the class. 
+With the first version of the system (Mario Cantalupo, Marco Capozzo) the attendance process did not include the authentication of the user, and every record was identified by the Universally unique identifier (UUID) of the installed app on the phone. Thus, was impossible to know who was in the class. 
 
 To solve this problem, I’ve introduced a WebView to use the University’s SSO, and a view to show the user details and make possible to logout. 
 The User Interface had also been changed following the Apple Human Interface Guidelines and the theory of colours.
