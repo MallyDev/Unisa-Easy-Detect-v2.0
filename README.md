@@ -13,4 +13,6 @@ To solve this problem, I’ve introduced a WebView to use the University’s SSO
 The User Interface had also been changed following the Apple Human Interface Guidelines and the theory of colours.
 
 This is only the application code. 
-For more information about the web services and the database check [ml-b.it/UnisaEasyDetect](http://www.ml-b.it/UnisaEasyDetect)
+For more information about the web services and the database check 
+
+[ml-b.it/UnisaEasyDetect](http://www.ml-b.it/UnisaEasyDetect)
